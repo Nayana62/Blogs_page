@@ -72,7 +72,7 @@ group :development do
   gem 'guard', '~> 2.18', '>= 2.18.1'
 
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
